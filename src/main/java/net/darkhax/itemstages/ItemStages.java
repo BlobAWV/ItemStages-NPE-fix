@@ -190,7 +190,8 @@ public class ItemStages {
                 }
                 
                 // Debug tooltip shows which stages the player doesn't have.
-                if (event.getFlags().isAdvanced()) {
+                // Changed this to include data !=null to prevent log spam - BlobAWV
+                if (event.getFlags().isAdvanced() && data != null) {
                     
                     final List<ITextComponent> stages = new ArrayList<>();
                     
