@@ -1,4 +1,5 @@
 # Game Stages
+*1.20.1 version is not altered in any way, change the branch to 1.16.5 forge to see what is changed.*
 
 Game Stages provides a framework for creating modpack progression systems in Minecraft. These progression systems are built using stages which are named true/false flags which are stored on a per-player basis. Stages are not linear and have no implicit connection or dependency on each other.
 
