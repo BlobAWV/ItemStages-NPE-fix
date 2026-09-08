@@ -1,5 +1,7 @@
 # Game Stages
 
+*This is a fork that fixes one issue - massive log spam that was caused by NullPointerExceptions. What this means for you as a player (or a modpack developer), is that your logs wouldn't be 50+mb in size everytime.* 
+
 Game Stages provides a framework for creating modpack progression systems in Minecraft. These progression systems are built using stages which are named true/false flags which are stored on a per-player basis. Stages are not linear and have no implicit connection or dependency on each other.
 
 Game stages only provides the framework for handling stage data. It saves the data, it synchronizes it with clients, and it provides commands that can be used to interact with the data. It does **not** alter game mechanics or interpret what stage flags are meant to do. This functionality is provided through Game Stage addon mods.
